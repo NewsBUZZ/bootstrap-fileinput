@@ -35,7 +35,7 @@
         msgValidationError: 'Ошибка при загрузке файла',
         msgLoading: 'Загрузка файла {index} из {files} &hellip;',
         msgProgress: 'Загрузка файла {index} из {files} - {name} - {percent}% завершено.',
-        msgSelected: '{n} {files} выбрано',
+        msgSelected: 'Выбрано файлов: {n}',
         msgFoldersNotAllowed: 'Разрешено только перетаскивание файлов! Пропущено {n} папок.',
         dropZoneTitle: 'Перетащите файлы сюда &hellip;'
     };
