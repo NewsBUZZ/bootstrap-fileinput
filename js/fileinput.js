@@ -1929,7 +1929,7 @@
                 msg = self.msgFilesTooMany.repl('{m}', self.maxFileCount).repl('{n}', total);
                 self.isError = throwError(msg, null, null, null);
                 self.$captionContainer.find('.kv-caption-icon').hide();
-                self.$caption.html(self.msgValidationError);
+                self.$caption.html('<span class="text-danger">' + self.msgValidationErrorIcon + self.msgValidationError + '</span>');
                 self.setEllipsis();
                 self.$container.removeClass('file-input-new file-input-ajax-new');
                 return;
